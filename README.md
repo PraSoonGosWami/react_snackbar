@@ -5,9 +5,9 @@
 [![NPM](https://img.shields.io/npm/v/react_material_snackbar.svg)](https://www.npmjs.com/package/@prasoongoswami/react_snackbar) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 ## Install
-
+*You also need to install @material-ui/lab and @material-ui/core, simply run the command*
 ```bash
-npm install --save @prasoongoswami/react_snackbar
+npm install --save @prasoongoswami/react_snackbar @material-ui/core @material-ui/lab
 ```
 
 ## Usage
