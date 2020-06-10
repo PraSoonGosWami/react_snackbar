@@ -1,6 +1,6 @@
 {
   "name": "@prasoongoswami/react_snackbar",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple snackbar notification for react apps made using Material-ui",
   "author": "PraSoonGosWami",
   "license": "MIT",
