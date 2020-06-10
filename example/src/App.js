@@ -1,10 +1,19 @@
 import React from 'react'
 
-import { ExampleComponent } from 'react_material_snackbar_alert'
-import 'react_material_snackbar_alert/dist/index.css'
+//import useAlert hook from react_material_snackbar_alert
+import { useAlert } from 'react_material_snackbar_alert'
 
 const App = () => {
-  return <ExampleComponent text="Create React Library Example 😄" />
+  //use addAlert method to display snackbar
+  const { addAlert } = useAlert()
+  return (
+    <div>
+      <button onClick={() => {
+        addAlert({title:"This is title", message:"Error message", severity:'error'})
+      }}>Generate</button>
+    </div>
+
+  )
 }
 
 export default App
