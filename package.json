@@ -1,10 +1,10 @@
 {
-  "name": "react_material_snackbar_alert",
+  "name": "@prasoongoswami/react_snackbar",
   "version": "1.0.0",
   "description": "A simple snackbar notification for react apps made using Material-ui",
   "author": "PraSoonGosWami",
   "license": "MIT",
-  "repository": "PraSoonGosWami/react_material_snackbar_alert",
+  "repository": "PraSoonGosWami/react_snackbar",
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.js",

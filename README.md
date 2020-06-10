@@ -1,21 +1,21 @@
-# react_material_snackbar_alert
+# react_snackbar
 
 > A simple snackbar notification for react apps made with Material-ui
 
-[![NPM](https://img.shields.io/npm/v/react_material_snackbar.svg)](https://www.npmjs.com/package/react_material_snackbar_alert) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![NPM](https://img.shields.io/npm/v/react_material_snackbar.svg)](https://www.npmjs.com/package/@prasoongoswami/react_snackbar) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 ## Install
 
 ```bash
-npm install --save react_material_snackbar_alert
+npm install --save @prasoongoswami/react_snackbar
 ```
 
 ## Usage
 
 ##### In your index.js
 ```jsx
-//import SnackBarProvider from react_material_snackbar_alert
-import { SnackBarProvider } from 'react_material_snackbar_alert'
+//import SnackBarProvider from @prasoongoswami/react_snackbar
+import { SnackBarProvider } from '@prasoongoswami/react_snackbar'
 
 ReactDOM.render(
   //Wrap the SnackBarProvider around the App
@@ -28,8 +28,8 @@ ReactDOM.render(
 ##### In your app.js or where you want to show a snackbar
 
 ```jsx
-//import useAlert hook from react_material_snackbar_alert
-import { useAlert } from 'react_material_snackbar_alert'
+//import useAlert hook from @prasoongoswami/react_snackbar
+import { useAlert } from '@prasoongoswami/react_snackbar'
 
 const App = () => {
   //use addAlert method to display snackbar
@@ -49,8 +49,8 @@ const App = () => {
 
 #### Customize your snackbar
 ```jsx
-//import useAlert hook from react_material_snackbar_alert
-import { useAlert } from 'react_material_snackbar_alert'
+//import useAlert hook from @prasoongoswami/react_snackbar
+import { useAlert } from '@prasoongoswami/react_snackbar'
 
 const App = () => {
   //use addAlert method to display snackbar
