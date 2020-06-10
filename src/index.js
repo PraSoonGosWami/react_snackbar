@@ -10,6 +10,7 @@ const AlertNotification = (props) => {
       open={props.open}
       autoHideDuration={props.duration}
       onClose={props.onClose}
+      disableWindowBlurListener={true}
       anchorOrigin={{ vertical: props.vertical, horizontal: props.horizontal }}
     >
       <Alert
